@@ -100,5 +100,26 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
+.DS_Store
+node_modules/
+platforms/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build stuff
+www/
+plugins/
+
+# Editor directories and files
+.idea
+.vscode
+.monaca
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
 # TernJS port file
 .tern-port
